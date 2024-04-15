@@ -1,6 +1,0 @@
-{
-  "components.modals.h.modal.hosting.cancel": "Cancel",
-  "components.modals.h.modal.hosting.delete": "Delete",
-  "components.modals.h.modal.hosting.delete.ssh.key": "Delete SSH key",
-  "components.modals.h.modal.hosting.you.are.about.to.delete.ssh.key.this.process.cannot.be.undone": "You are about to delete SSH key. This process cannot be undone."
-}
