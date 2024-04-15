@@ -1,0 +1,23 @@
+{
+  "name": "slugs-migration-scripts",
+  "version": "1.0.0",
+  "description": "Some helper functions to migrate translations from EN texts to slug",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "module"
+  ],
+  "author": "Tomas Jankauskas",
+  "license": "ISC",
+  "dependencies": {
+    "gettext-extractor": "3.1.0",
+    "glob": "7.2.0",
+    "mkdirp": "^3.0.1",
+    "parse5-sax-parser": "5.1.0",
+    "queue": "6.0.2"
+  }
+}
