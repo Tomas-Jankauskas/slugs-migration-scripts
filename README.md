@@ -2,9 +2,9 @@
 
 This repository contains a set of helper functions for migrating translations from English texts to slugs. Here's a brief explanation of each script:
 
-- `generate-slug.js`: This script generates slugs from English texts and replaces English texts to slugs them throughout the whole folder.
+- `generate-slug.js`: This script generates slugs from English texts and replaces English texts to slugs them throughout the whole folder. Make sure you have a `.js` file with the most up to date translations (can be any language).
 
-- `map-translations.js`: Used for generating `.json` files in other languages. Make sure write a correct path to `old-translations` folder that includes `.js` files. This script maps translations from English texts to slugs. It takes the generated slugs and maps them to their corresponding translations.
+- `map-translations.js`: Used for generating `.json` files in other languages. Make sure write a correct path to `old-translations` folder that includes all the `.js` files of existing translations. Make sure the `.js` translation files are up to date.
 
 - `replace-slugs.js`: In case if you mess things up or just want to have different slugs, adjust the `generateSlug` function inside this script correspondingly and it should replace existing slugs with new ones.
 
