@@ -33,5 +33,3 @@ To install and use these scripts, follow these steps:
     ```
 
     Replace `generate-slug.js` with the name of the script you want to run.
-
-Please note that these scripts should be used with caution and thoroughly tested before applying them to a production environment.
