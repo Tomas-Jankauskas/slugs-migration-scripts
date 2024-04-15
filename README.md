@@ -1,6 +1,4 @@
 # slugs-migration-scripts
-Some helper functions to migrate translations from EN texts to slug
-# slugs-migration-scripts
 
 This repository contains a set of helper functions for migrating translations from English texts to slugs. Here's a brief explanation of each script:
 
