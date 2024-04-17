@@ -26,7 +26,11 @@ const processFile = async (file) => {
   // Create a new object where the keys are the slugs from en_GB.json and the values are the corresponding values from the old translation file
   const newTranslation = {};
   for (const [slug, text] of Object.entries(enGB)) {
-    newTranslation[slug] = oldTranslation.default[locale][text];
+    let textWithoutNewLine = text.replace(/\n/g, " ");
+
+    newTranslation[slug] =
+      oldTranslation.default[locale][textWithoutNewLine] ||
+      oldTranslation.default[locale][text];
   }
 
   const dir = PATH_TO_NEW_JSON_TRANSLATIONS;
